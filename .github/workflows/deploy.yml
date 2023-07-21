@@ -35,7 +35,7 @@ jobs:
             # copying the code from repo i.e. Dockerfile, versioning 
             # the docker image, and pushing it to ECR.
               env:
-                ECR_REGISTRY: 678573427865.dkr.ecr.us-east-2.amazonaws.com/simple_nodejs_app
+                ECR_REGISTRY: 678573427865.dkr.ecr.us-east-2.amazonaws.com
                 ECR_REPOSITORY: simple_nodejs_app
                 IMAGE_TAG: nodejs_simple_app
               run: |
